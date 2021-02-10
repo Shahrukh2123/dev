@@ -60,7 +60,7 @@ loadShowmessage()
 {
   if(this.state.loading)
   {
-    return <p>loading.....</p>
+    return <p>loading..done.....</p>
   }
   else{
     return <p>{this.state.message}</p>
